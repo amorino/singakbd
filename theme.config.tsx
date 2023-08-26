@@ -1,6 +1,15 @@
+import { useRouter } from "next/router";
 import type { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    const { asPath } = useRouter();
+    if (asPath !== "/") {
+      return {
+        titleTemplate: "%s – SINGAKBD",
+      };
+    }
+  },
   logo: <span>SINGAKBD</span>,
   project: {
     link: "https://github.com/amorino/singakbd",
@@ -28,6 +37,16 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="SINGAKBD Docs" />
+      <meta
+        property="og:description"
+        content="SINGAKBD documentation for each release of keyboards."
+      />
+    </>
+  ),
 };
 
 export default config;
