@@ -1,6 +1,3 @@
 {
-  "extends": "@amorino/eslint-config-next",
-  "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }]
-  }
+  "extends": "@amorino/eslint-config-next"
 }
