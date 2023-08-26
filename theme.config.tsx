@@ -14,6 +14,9 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/amorino/singakbd",
   },
+  chat: {
+    link: "https://discord.com/invite/53Z8QCha",
+  },
   // eslint-disable-next-line unicorn/prevent-abbreviations
   docsRepositoryBase: "https://github.com/amorino/singakbd/tree/main/",
   sidebar: {
@@ -23,7 +26,7 @@ const config: DocsThemeConfig = {
       }
       return <>{title}</>;
     },
-    defaultMenuCollapseLevel: 1,
+    defaultMenuCollapseLevel: 2,
     toggleButton: true,
   },
   footer: {
@@ -47,6 +50,10 @@ const config: DocsThemeConfig = {
       />
     </>
   ),
+  primaryHue: {
+    light: 270,
+    dark: 204,
+  },
 };
 
 export default config;
