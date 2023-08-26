@@ -1,4 +1,6 @@
-export default {
+import type { DocsThemeConfig } from "nextra-theme-docs";
+
+const config: DocsThemeConfig = {
   logo: <span>SINGAKBD</span>,
   project: {
     link: "https://github.com/amorino/singakbd",
@@ -27,3 +29,5 @@ export default {
     ),
   },
 };
+
+export default config;
