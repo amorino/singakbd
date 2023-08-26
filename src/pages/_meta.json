@@ -1,0 +1,13 @@
+{
+  "index": "Home",
+  "releases": "Releases",
+  "-- More": {
+    "type": "separator",
+    "title": "More resources"
+  },
+  "next.js-link": {
+    "title": "Compatible PCB List ↗",
+    "href": "https://quick-seeder-8b6.notion.site/SINGAKBD-Wiki-2897c6dbd9df4365a496a237dd1a01da",
+    "newWindow": true
+  }
+}
