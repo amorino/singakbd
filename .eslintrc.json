@@ -1,3 +1,16 @@
 {
-  "extends": "@amorino/eslint-config-next"
+  "extends": ["@amorino/eslint-config-next"],
+  "overrides": [
+    {
+      "files": ["*.mdx"],
+      "extends": ["plugin:mdx/recommended"],
+      "settings": {
+        "mdx/code-blocks": true,
+        "mdx/language-mapper": {}
+      },
+      "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".mdx"] }]
+      }
+    }
+  ]
 }
