@@ -11,7 +11,10 @@ export async function generateMetadata(props: {
   return metadata;
 }
 
-const Wrapper = getMDXComponents().wrapper!;
+// eslint-disable-next-line -- wrapper is guaranteed by nextra
+const Wrapper = getMDXComponents().wrapper as NonNullable<
+  ReturnType<typeof getMDXComponents>["wrapper"]
+>;
 
 export default async function Page(props: {
   params: Promise<{ mdxPath?: string[] }>;
