@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The page auto-updates as you edit the files.
 
-This project uses eslint and Husky to check for formatting, you can run this command to check for errors.
+This project uses [Biome](https://biomejs.dev/) and Husky to check for formatting and linting. You can run this command to check for errors.
 
 ```bash
 bun run lint

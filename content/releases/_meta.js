@@ -1,0 +1,8 @@
+export default {
+  jaguar: "🐆 Jaguar",
+  kohaku: "🐟 Kohaku",
+  neko: "🐈 Neko (w. MONOKEI)",
+  ocelot: "🐈‍⬛ Ocelot",
+  singa: "🦁 SINGA",
+  unikorn: "🦄 Unikorn (w. TGR)",
+};
