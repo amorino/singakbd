@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-eval "$(mise activate bash)"
 bun run lint
