@@ -5,4 +5,5 @@ export default {
   ocelot: "🐈‍⬛ Ocelot",
   singa: "🦁 SINGA",
   unikorn: "🦄 Unikorn (w. TGR)",
+  stinga: "Stinga",
 };
